@@ -4,7 +4,7 @@ A lightweight, interactive Bash script designed to move worklogs between Jira Cl
 
 ## Description
 
-This tool facilitates the transfer of worklogs from a source issue to a target issue. It is particularly useful for correcting misattributed time entries without manually recreating the log details. The script operates interactively, allowing you to browse existing worklogs, select specific IDs, and execute the move operation with validation. Once the worklog is replicated/regenerated to the destination Jira issue, the old worklog ID is removed. There is no clean way to move the worklog without generating a new ID but all the important info most people/companies need is retained. The ID itself is *usually* arbitrary and more for Jira's internal use. 
+This tool facilitates the transfer of worklogs from a source issue to a target issue using Bash interactivity & the Atlassian API. It is particularly useful for correcting misattributed time entries without manually recreating the log details. The script operates interactively, allowing you to browse existing worklogs, select specific IDs, and execute the move operation with validation. Once the worklog is replicated/regenerated to the destination Jira issue, the old worklog ID is removed. There is no clean way to move the worklog without generating a new ID but all the important info most people/companies need is retained. The ID itself is *usually* arbitrary and more for Jira's internal use. 
 
 ## Requirements
 
