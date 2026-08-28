@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # ==========================================
-# Jira Worklog Mover (Interactive Session v4)
+# Jira Worklog Mover (Interactive Session)
 # ==========================================
 
 # Colors for output
